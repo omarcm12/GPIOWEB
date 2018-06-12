@@ -1,6 +1,6 @@
 # GPIOWEB
 #RASPBERRY PI GPIO CONTROL FROM THE WEB
-This is te code of a project where can monitor and control the gpio pins of the raspberry pi 2
+This is te code of a school project where can monitor and control the gpio pins of the raspberry pi 2
 
 Used technology:
 Python, PHP, Bootstrap, Javascript (With JQUERY) and files
