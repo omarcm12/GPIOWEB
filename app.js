@@ -2,14 +2,13 @@ $(document).ready( function (){
 
   	$("#boton").click(toggle);
 
-    /* funciones encargadas de verificar el estado de los dispositivos */
+    /* monitor of the dispositives */
     setInterval(realTimeLed,1000/30);
     setInterval(realTimeSensor,1000/30);
 }
 
 );
-
-/* funcion encargada de verificar el estado del led constantemenrte */ 
+ 
 
 function realTimeLed(){
   var url = "led.php";
@@ -26,7 +25,6 @@ function realTimeLed(){
   });
 }
 
-/* funcion encargada de verificar el estado del sensor constantemenrte */
 
 function realTimeSensor(){ 
   var url = "sensor.php";

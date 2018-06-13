@@ -1,5 +1,4 @@
-#script de python encargado de hacer toggle en el archivo
-#que contiene el estado actual del led
+
 f = open('archivo.txt', 'r');
 txt = f.read()
 f.close()

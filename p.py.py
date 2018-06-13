@@ -1,5 +1,3 @@
-#script de python encargado de monitorear y hacer cambios en los pines
-#de la raspberry pi
 
 import RPi.GPIO as GPIO
 from time import sleep
